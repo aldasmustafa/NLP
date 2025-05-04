@@ -8,3 +8,32 @@ Bu projede, seçilen metin tabanlı bir veri seti üzerinde doğal dil işleme (
 - **Boyut:** 6 MB
 
 ## 3. Proje Klasör Yapısı
+proje/
+├── nlp.ipynb # Tüm adımların işlendiği Jupyter Notebook
+├── requirements.txt # Gerekli kütüphaneler
+├── data/
+│ ├── bank.xlsx
+│ ├── stemmed data.csv
+│ ├── lemmatized data.csv
+│ ├── tfidf_lemmatized.csv
+│ ├── tfidf_stemmed.csv
+│ └── ...
+├── models/
+│ └── ...
+└── README.md
+
+## 4. Kurulum ve Gerekli Kütüphaneler
+Aşağıdaki Python kütüphaneleri gereklidir:
+
+pandas
+numpy
+nltk
+gensim
+scikit-learn
+matplotlib
+seaborn
+re
+collections
+ast
+shutil
+ipython
