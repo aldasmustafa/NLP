@@ -24,6 +24,7 @@ proje/
 └── README.md
 
 4. Kurulum ve Gerekli Kütüphaneler
+
 Aşağıdaki Python kütüphaneleri gereklidir:
 pandas
 numpy
@@ -38,7 +39,7 @@ ast
 shutil
 ipython
 
-5. Adım Adım Kullanım
+6. Adım Adım Kullanım
  Veri İnceleme ve Örnekleme
 Veri setinin boyutu, formatı ve örnek satırı ekrana yazdırılır.
  Zipf Yasası Analizi
