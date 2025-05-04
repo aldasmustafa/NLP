@@ -39,11 +39,11 @@ shutil
 ipython
 
 5. Adım Adım Kullanım
-1. Veri İnceleme ve Örnekleme
+ Veri İnceleme ve Örnekleme
 Veri setinin boyutu, formatı ve örnek satırı ekrana yazdırılır.
-2. Zipf Yasası Analizi
+ Zipf Yasası Analizi
 Ham, lemmatized ve stemmed veri için Zipf grafikleri oluşturulur.
-3. Ön İşleme (Preprocessing)
+ Ön İşleme (Preprocessing)
 Stopword removal, tokenization, lowercasing, lemmatization, stemming ve özel karakter temizliği yapılır.
 Çıktılar:
 
