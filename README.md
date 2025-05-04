@@ -24,7 +24,7 @@ proje/
 └── README.md
 ```
 
-📂 [Google Drive klasörüne buradan erişebilirsiniz.](https://drive.google.com/drive/folders/1WfYMtv1BK6r9mruu_WVl0g6H3MDGeXg4?usp=drive_link)
+📂 [Tüm veri ve model dosyalarına buradan erişebilirsiniz.](https://drive.google.com/drive/folders/1WfYMtv1BK6r9mruu_WVl0g6H3MDGeXg4?usp=drive_link)
 
 ## 4. Kurulum ve Gerekli Kütüphaneler
 Aşağıdaki Python kütüphanelerinin sisteminizde kurulu olması gerekmektedir:
@@ -78,6 +78,15 @@ TF-IDF yöntemi ile lemmatize ve stem yapılmış metinlerin sayısal vektörler
 **Çıktılar:**
 - `tfidf_lemmatized.csv`
 - `tfidf_stemmed.csv`
+
+### 5.5 Word2Vec Model Testi
+Hazırlanan Word2Vec modelleriyle kelime benzerliği testleri yapılmıştır.
+
+- Örnek model dosyası: `lemmatized_model_cbow_window2_dim100.model`
+- fund kelimesi girildiğinde, modele göre en benzer 5 kelime listelenir.
+- Not: Bazı model dosyaları boyut nedeniyle GitHub reposuna eklenmemiştir. Tam liste ve eksik olan dosyalar aşağıdaki Google Drive klasöründe yer almaktadır.
+
+📂 [Model ve çıktı dosyaları burada](https://drive.google.com/drive/folders/1WfYMtv1BK6r9mruu_WVl0g6H3MDGeXg4?usp=drive_link)
 
 ---
 
