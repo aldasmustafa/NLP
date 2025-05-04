@@ -10,12 +10,12 @@ Bu projede, seçilen metin tabanlı bir veri seti üzerinde doğal dil işleme (
 ## 3. Proje Klasör Yapısı
 ```
 proje/
-├── nlp.ipynb                  # Tüm adımların işlendiği Jupyter Notebook
-├── requirements.txt           # Gerekli kütüphaneler
+├── nlp.ipynb               # Tüm adımların işlendiği Jupyter Notebook
+├── requirements.txt        # Gerekli kütüphaneler
 ├── data/
-│   ├── ai_detect_essays_filtered.csv
-│   ├── essays_lemmatized.csv
-│   ├── essays_stemmed.csv
+│   ├── bank.xlsx
+│   ├── stemmed data.csv
+│   ├── lemmatized data.csv
 │   ├── tfidf_lemmatized.csv
 │   ├── tfidf_stemmed.csv
 │   └── ...
@@ -44,7 +44,7 @@ shutil
 ipython
 ```
 
-Kurmak için terminalde şunu çalıştırabilirsiniz:
+Kurmak için terminalde şu komutu çalıştırabilirsiniz:
 ```
 pip install -r requirements.txt
 ```
@@ -69,7 +69,8 @@ Aşağıdaki işlemler uygulanır:
 **Çıktılar:**
 - `essays_lemmatized.csv`
 - `essays_stemmed.csv`
-- `ai_detect_essays_filtered.csv`
+- `sentences_lemmatized.csv`
+- `sentences_stemmed.csv`
 
 ### 5.4 TF-IDF Vektörleştirme
 TF-IDF yöntemi ile lemmatize ve stem yapılmış metinlerin sayısal vektörleri oluşturulur.
@@ -83,10 +84,10 @@ Hazırlanan Word2Vec modelleriyle kelime benzerliği testleri yapılmıştır.
 
 - Örnek model dosyası: `lemmatized_model_cbow_window2_dim100.model`
 - Bir kelime girildiğinde, modele göre en benzer 5 kelime listelenir.
-- Not: Model dosyalarının bazıları boyut nedeniyle GitHub'a yüklenmemiştir. Tüm model ve veri dosyaları ilgili Google Drive klasörlerinde yer almaktadır.
+- **Not:** Bazı model dosyaları boyut nedeniyle GitHub reposuna eklenmemiştir. Tam liste ve eksik olan dosyalar aşağıdaki Google Drive klasörlerinde yer almaktadır:
 
+📂 [Veri dosyaları](https://drive.google.com/drive/folders/1UGJqj4RXZFYhrM9JNuiv_EW1AmysHLoT?usp=drive_link)  
 📂 [Model dosyaları](https://drive.google.com/drive/folders/1WfYMtv1BK6r9mruu_WVl0g6H3MDGeXg4?usp=drive_link)
 
 ---
 
-.
